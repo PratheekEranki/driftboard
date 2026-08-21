@@ -1,0 +1,26 @@
+## A/B Experiment Batch Summary
+
+**Total experiments analyzed:** 60
+**Statistically significant results (BH FDR q < 0.05):** 37 (62%)
+  - Positive effects: 31
+  - Negative/null effects: 6
+**Average lift among significant experiments:** +18.7%
+
+### Top Performing Experiment
+- **EXP_0021** (sms · click_rate)
+- Lift: +77.8%, Cohen's d = 1.488 (large), p = 0.0000
+
+### Worst Performing Experiment
+- **EXP_0059** (direct_mail · click_rate)
+- Lift: -9.8%, Cohen's d = -0.693 (medium), p = 0.0340
+
+### Channel Performance
+Best channel by significance rate: **push_notification** (75% sig. rate)
+
+### KPI Trends
+Highest avg lift by KPI: **click_rate** (+14.4% avg lift)
+
+### Recommendations
+1. Prioritize **push_notification** campaigns — highest share of statistically significant results.
+2. Scale winning experiments with Cohen's d ≥ 0.2 — (35 experiments qualify).
+3. Re-evaluate 6 experiments showing negative treatment effects before next campaign cycle.

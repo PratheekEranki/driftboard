@@ -27,7 +27,7 @@ def test_two_prop_ztest_significant():
     # Large samples, big effect — should be significant
     z, p = two_prop_ztest(10_000, 0.10, 10_000, 0.15)
     assert p < ALPHA
-    assert z < 0  # treatment > control → positive z in (treat - ctrl)
+    assert z > 0  # treatment > control → positive z in (treat - ctrl)
 
 
 def test_two_prop_ztest_null():

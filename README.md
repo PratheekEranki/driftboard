@@ -1,6 +1,14 @@
 # Campaign Analytics and A/B Testing Platform with Metric Drift Detection
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit)](https://pratheekeranki-driftboard-srcdashboard-trgdyi.streamlit.app/)
+
 End-to-end campaign analytics pipeline that runs statistical hypothesis testing across 50+ marketing experiments, applies Benjamini-Hochberg FDR correction, detects metric drift in business KPIs using IQR and Z-score anomaly detection, and delivers findings through a Streamlit dashboard with auto-generated executive summaries.
+
+---
+
+## Live Demo
+
+🚀 **[Open Dashboard →](https://pratheekeranki-driftboard-srcdashboard-trgdyi.streamlit.app/)**
 
 ---
 

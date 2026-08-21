@@ -68,7 +68,7 @@ def sig_badge(val):
 # ── sidebar ──────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.title("📡 Driftboard")
-    st.caption("H&R Block · Campaign Analytics")
+    st.caption("Campaign Analytics")
     st.divider()
 
     ab = load_ab_results()
